@@ -1,0 +1,59 @@
+
+
+.parent-menu.desktop {
+    flex: initial;
+    height: 100%
+}
+
+.parent-menu.desktop .list-menu {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0 !important
+}
+
+.desktop.parent-menu .parent-menu-item {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    min-height: 60px;
+    position: relative;
+    text-transform: uppercase
+}
+
+
+
+.parent-menu a {
+    color: #fff
+}
+
+
+
+#forgot-password,
+#overlay,
+.mobile {
+    display: none
+}
+
+
+
+@media(max-width:1366px) {
+    .logo-brand img {
+        width: 100px
+    }
+
+    .desktop.parent-menu .parent-menu-item {
+        min-height: 54px
+    }
+
+    .nav-indicator {
+        height: 4px
+    }
+
+    .parent-menu a {
+        font-size: .9rem !important
+    }
+}
